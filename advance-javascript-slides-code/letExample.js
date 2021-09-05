@@ -6,13 +6,13 @@
 /************************************************** */
 // Try any part one at a time
 
-var x = 10;
-console.log(x)       // Result: 10
-{
-    let x = 2;
-    console.log(x)   // Result: 2
-}
-console.log(x)       // Result: 10
+// var x = 10;
+// console.log(x)       // Result: 10
+// {
+//     let x = 2;
+//     console.log(x)   // Result: 2
+// }
+// console.log(x)       // Result: 10
 
 
 /************************************************** */
@@ -45,24 +45,25 @@ console.log(x)       // Result: 10
 
 /************************************************** */
 
-// let myname          // Declare variable
-// console.log(myname) // result: Undefined
-// myname = 'Faiza';   // Initialize variable
+let myname          // Declare variable
+console.log(myname) // result: Undefined
+myname = 'Faiza';   // Initialize variable
+console.log(myname) // result: Faiza
 
 
 
 /************************************************** */
 
 
-// myname = 'Faiza';   // Initialize variable
-// console.log(myname) // result: ERROR: myname is not defined
-// let myname          // Declare variable
+myname = 'Faiza';   // Initialize variable
+console.log(myname) // result: ERROR: myname is not defined
+let myname          // Declare variable
 
 
 
 /************************************************** */
 
-// myname = 'Faiza';   // Initialize variable
-// let myname          // Declare variable
-// console.log(myname)// result: ERROR: myname is not defined
+// myname = 'Faiza';  
+let myname          
+console.log(myname) //
 
