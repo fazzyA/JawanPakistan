@@ -2,7 +2,7 @@
 //  example : 1
 
 
-var userName = "Faiza Aziz Khan";
+var userName = "Faiza Aziz Khan"; // global
 
 function modifyUserName() {
         userName = "Muhammad Ali Mughal";
@@ -12,10 +12,10 @@ function showUserName() {
         alert(userName);
     };
 
-alert(userName); //
+alert(userName); // Faiza
 
-modifyUserName();
-showUserName();// 
+modifyUserName(); // MAM
+showUserName(); // MAM
 
 
 
