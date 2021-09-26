@@ -55,3 +55,6 @@ question: `const dog='snickers'
 // welcomeMsg()
 I have called funtion twice , share the answer what is printed each time
 */
+
+//make a promise that resolves after 5 sec. Use setTimeOut for resolve.
+
